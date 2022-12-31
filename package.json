@@ -1,5 +1,5 @@
 {
-  "name": "ext-tool",
+  "name": "@coin98/ext-tool",
   "version": "0.0.2",
   "description": "oclif example Hello World CLI",
   "author": "ThanhTam @thanhtamv2t",

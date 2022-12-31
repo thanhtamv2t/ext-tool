@@ -16,11 +16,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g ext-tool
+$ npm install -g @coin98/ext-tool
 $ ext-tool COMMAND
 running command...
 $ ext-tool (--version)
-ext-tool/0.0.2 darwin-x64 node-v14.18.2
+@coin98/ext-tool/0.0.2 darwin-x64 node-v14.18.2
 $ ext-tool --help [COMMAND]
 USAGE
   $ ext-tool COMMAND
@@ -32,6 +32,7 @@ USAGE
 * [`ext-tool hello PERSON`](#ext-tool-hello-person)
 * [`ext-tool hello world`](#ext-tool-hello-world)
 * [`ext-tool help [COMMAND]`](#ext-tool-help-command)
+* [`ext-tool make project NAME PATH`](#ext-tool-make-project-name-path)
 * [`ext-tool plugins`](#ext-tool-plugins)
 * [`ext-tool plugins:install PLUGIN...`](#ext-tool-pluginsinstall-plugin)
 * [`ext-tool plugins:inspect PLUGIN...`](#ext-tool-pluginsinspect-plugin)
@@ -101,6 +102,29 @@ DESCRIPTION
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.20/src/commands/help.ts)_
+
+## `ext-tool make project NAME PATH`
+
+Make new wallet project
+
+```
+USAGE
+  $ ext-tool make project [NAME] [PATH] [-n <value>] [-f]
+
+ARGUMENTS
+  NAME  Project name is required
+  PATH  Path to create is required
+
+FLAGS
+  -f, --force
+  -n, --name=<value>  name to print
+
+DESCRIPTION
+  Make new wallet project
+
+EXAMPLES
+  $ ext-tool make project
+```
 
 ## `ext-tool plugins`
 
