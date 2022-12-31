@@ -1,7 +1,7 @@
 {
-  "name": "@coin98/ext-tool",
-  "version": "0.0.2",
-  "description": "oclif example Hello World CLI",
+  "name": "textool",
+  "version": "0.0.3",
+  "description": "Ext-tool",
   "author": "ThanhTam @thanhtamv2t",
   "bin": {
     "ext-tool": "./bin/run"
