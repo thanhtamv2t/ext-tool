@@ -20,7 +20,7 @@ $ npm install -g ext-tool
 $ ext-tool COMMAND
 running command...
 $ ext-tool (--version)
-ext-tool/0.0.1 darwin-x64 node-v14.18.2
+ext-tool/0.0.2 darwin-x64 node-v14.18.2
 $ ext-tool --help [COMMAND]
 USAGE
   $ ext-tool COMMAND
@@ -64,7 +64,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/thanhtamv2t/ext-tool/blob/v0.0.1/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/thanhtamv2t/ext-tool/blob/v0.0.2/dist/commands/hello/index.ts)_
 
 ## `ext-tool hello world`
 
